@@ -1,0 +1,39 @@
+import.java.util.scanner;
+class Area{
+            double area;
+            void calculateArea(int r)
+            {
+              area*(float)3.14*r*r;
+              System.out.println("Area of circle="+area);
+            }
+             void calculateArea(float b,float h)
+            {
+             area=(float).5*b*h;
+             System.out.println("Area of triangle="+area)
+            }
+            void calculateArea(int 1,int b)
+            {
+             area=1*b;
+             System.out.println("Area of rectangle="+area);
+            }
+           }
+          public class Area_of_Shapes{
+          public static void main(string[] args){
+          
+          int r,l,b,bs,h;
+          Area a=new Area();
+          Scanner s=new Scanner(System.in);
+          Sysem.out.println("Enter the radius of circle");
+          r=s.nextint();
+          a.calculateArea(r);
+          System.out.println("Enter the length");
+          l=s.nextint();
+          System.out.println("Enter the breadth");
+          b=s.nextint();
+          a.calculateArea(l,b);
+          System.out.println("Enter the base");
+          bs=s.nextint();
+          System.out.println("Enter the hieght");
+          h=s.nextint();
+          a.calculateArea((float)bs,(float)h);
+          }
